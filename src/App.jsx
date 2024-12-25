@@ -77,6 +77,7 @@ let funfuni = () => {
 };
 let arrrrrrrrr2ar = { [1]: "chang", fml: "khanloyu", age: "31" };
 
+ferdata = [{ os: "win 10 pro", age: 31, winInstalled: true }];
 export default function App() {
   return (
     <div>
@@ -85,6 +86,7 @@ export default function App() {
           return <Cardwrapper data={monsterman} key={monsterman.id} />;
         })}
         <DivTest>
+          
           {funfuni()}
           {console.log(Object.values(arrrrrrrrr2ar))}
         </DivTest>

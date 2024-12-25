@@ -1,3 +1,5 @@
 export default function DivTest() {
-  return <div>{}</div>;
+  return <div>
+    <p></p>
+  </div>;
 }
